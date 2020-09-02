@@ -1,0 +1,24 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>登陆页面</title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+</head>
+
+<body>
+<h1>登陆页面</h1>
+<form method="post" name="form1">
+    <table>
+        <tr>
+            <td>用户名</td><td><input type="text" name="admin"></input></td>
+        </tr>
+        <tr>
+            <td>密码</td><td><input type="password" name="password"></input></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="登陆" style="width:100px;height:25px" onclick="form1.action='/Login';form1.submit()"></input></td>
+            <td><input type="submit" value="注册" style="width:100px;height:25px" onclick="form1.action='/Signup';form1.submit()"></input></td>
+        </tr>
+    </table>
+</form>
+</body>
